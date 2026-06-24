@@ -1,0 +1,27 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 24 Jun 2026 10:37:31 at https://uditrsahani-ship-it.github.io/macamazepop/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Pns2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://uditrsahani-ship-it.github.io/macamazepop/ -O1 "C:\Users\optimus prime\Desktop\ios 3 popup" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+10:37:41	Error: 	"Not Found" (404) at link https://uditrsahani-ship-it.github.io/macamazepop/fonts/_families=SF+Pro,v1_7CSF+Pro+Icons,v1html.html (from https://uditrsahani-ship-it.github.io/macamazepop/)
+10:37:42	Error: 	"Not Found" (404) at link https://uditrsahani-ship-it.github.io/macamazepop/globalnav/apple/image_large.svg (from https://uditrsahani-ship-it.github.io/macamazepop/Base.css)
+10:37:42	Error: 	"Not Found" (404) at link https://uditrsahani-ship-it.github.io/macamazepop/globalnav/links/mac/image_large.svg (from https://uditrsahani-ship-it.github.io/macamazepop/Base.css)
+10:37:42	Error: 	"Not Found" (404) at link https://uditrsahani-ship-it.github.io/macamazepop/globalnav/links/mac/image_small.svg (from https://uditrsahani-ship-it.github.io/macamazepop/Base.css)
+10:37:42	Error: 	"Not Found" (404) at link https://uditrsahani-ship-it.github.io/macamazepop/globalnav/links/ipad/image_large.svg (from https://uditrsahani-ship-it.github.io/macamazepop/Base.css)
+10:37:42	Error: 	"Not Found" (404) at link https://uditrsahani-ship-it.github.io/macamazepop/globalnav/links/ipad/image_small.svg (from https://uditrsahani-ship-it.github.io/macamazepop/Base.css)
+10:37:42	Error: 	"Not Found" (404) at link https://uditrsahani-ship-it.github.io/macamazepop/globalnav/links/iphone/image_large.svg (from https://uditrsahani-ship-it.github.io/macamazepop/Base.css)
+10:37:42	Error: 	"Not Found" (404) at link https://uditrsahani-ship-it.github.io/macamazepop/globalnav/links/iphone/image_small.svg (from https://uditrsahani-ship-it.github.io/macamazepop/Base.css)
+10:37:42	Error: 	"Not Found" (404) at link https://uditrsahani-ship-it.github.io/macamazepop/globalnav/links/watch/image_large.svg (from https://uditrsahani-ship-it.github.io/macamazepop/Base.css)
+10:37:42	Error: 	"Not Found" (404) at link https://uditrsahani-ship-it.github.io/macamazepop/globalnav/links/tv/image_large.svg (from https://uditrsahani-ship-it.github.io/macamazepop/Base.css)
+10:37:42	Error: 	"Not Found" (404) at link https://uditrsahani-ship-it.github.io/macamazepop/globalnav/links/music/image_large.svg (from https://uditrsahani-ship-it.github.io/macamazepop/Base.css)
+10:37:42	Error: 	"Not Found" (404) at link https://uditrsahani-ship-it.github.io/macamazepop/globalnav/links/support/image_large.svg (from https://uditrsahani-ship-it.github.io/macamazepop/Base.css)
+10:37:42	Error: 	"Not Found" (404) at link https://uditrsahani-ship-it.github.io/macamazepop/globalnav/search/image_large.svg (from https://uditrsahani-ship-it.github.io/macamazepop/Base.css)
+10:37:42	Error: 	"Not Found" (404) at link https://uditrsahani-ship-it.github.io/macamazepop/globalnav/search/image_small.svg (from https://uditrsahani-ship-it.github.io/macamazepop/Base.css)
+10:37:42	Error: 	"Not Found" (404) at link https://uditrsahani-ship-it.github.io/macamazepop/globalnav/bag/image_large.svg (from https://uditrsahani-ship-it.github.io/macamazepop/Base.css)
+10:37:42	Error: 	"Not Found" (404) at link https://uditrsahani-ship-it.github.io/macamazepop/globalnav/search/icon_reset_small.svg (from https://uditrsahani-ship-it.github.io/macamazepop/Base.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 11 seconds : 35 links scanned, 17 files written (757572 bytes overall) [629022 bytes received at 57183 bytes/sec], 477985 bytes transferred using HTTP compression in 28 files, ratio 35%, 8.7 requests per connection
+(16 errors, 0 warnings, 0 messages)
