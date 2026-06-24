@@ -1,6 +1,0 @@
-# HTTrack Website Copier Cookie File
-# This file format is compatible with Netscape cookies
-c.statcounter.com	TRUE	/	FALSE	1999999999	is_unique	sc13228153.1782277656.0
-c.statcounter.com	TRUE	/	FALSE	1999999999	is_visitor_unique	1782277656316297438
-.statcounter.com	TRUE	/	FALSE	1999999999	SameSite	None
-
