@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -792,6 +791,32 @@
   </div>
 </footer>
 
+<!-- CHAT WIDGET -->
+<button class="chat-btn" id="chatBtn" aria-label="Open live chat">
+  <span class="dot"></span> Chat with us
+</button>
+<div class="chat-panel" id="chatPanel" role="dialog" aria-label="Live chat">
+  <div class="chat-head">
+    <div class="h-title">
+      <span class="av" style="width:38px;height:38px">M&amp;O</span>
+      <div><b>Meridian &amp; Oak</b><small>● Typically replies in minutes</small></div>
+    </div>
+    <button id="chatClose" aria-label="Close chat">×</button>
+  </div>
+  <div class="chat-body" id="chatBody">
+    <div class="msg bot">Hi there 👋 Welcome to Meridian &amp; Oak. How can we help with your space today?</div>
+  </div>
+  <div class="chat-quick" id="chatQuick">
+    <button onclick="quick('I need design help')">Design help</button>
+    <button onclick="quick('Track my order')">Track order</button>
+    <button onclick="quick('Renovation quote')">Renovation quote</button>
+  </div>
+  <div class="chat-input">
+    <input id="chatInput" type="text" placeholder="Type a message…" aria-label="Type a message" onkeydown="if(event.key==='Enter')sendMsg()" />
+    <button onclick="sendMsg()" aria-label="Send">Send</button>
+  </div>
+</div>
+
 <script>
   // graceful image fallback so layout never breaks
   document.querySelectorAll('img').forEach(function(img){
@@ -826,20 +851,15 @@
   // form notes
   function formNote(){document.getElementById('formNote').style.display='block';}
   function newsNote(){var n=document.getElementById('newsNote');n.textContent='✓ You are subscribed. Watch your inbox for a welcome note.';n.style.color='var(--brass-deep)';return false;}
-</script>
 
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/6a3bffad82d7761d52850b61/1jrt5tg7o';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
+  // chat
+  var panel=document.getElementById('chatPanel'),body=document.getElementById('chatBody');
+  document.getElementById('chatBtn').addEventListener('click',function(){panel.classList.add('open');document.getElementById('chatBtn').style.display='none';document.getElementById('chatInput').focus();});
+  document.getElementById('chatClose').addEventListener('click',function(){panel.classList.remove('open');document.getElementById('chatBtn').style.display='flex';});
+  function addMsg(t,who){var d=document.createElement('div');d.className='msg '+who;d.textContent=t;body.appendChild(d);body.scrollTop=body.scrollHeight;}
+  function botReply(){setTimeout(function(){addMsg("Thanks! A team member will be right with you. Meanwhile, you can call (312) 555-0184 or book a consultation on this page.",'bot');},700);}
+  function sendMsg(){var i=document.getElementById('chatInput');if(!i.value.trim())return;addMsg(i.value.trim(),'me');i.value='';botReply();}
+  function quick(t){addMsg(t,'me');botReply();}
 </script>
-<!--End of Tawk.to Script-->
 </body>
 </html>
